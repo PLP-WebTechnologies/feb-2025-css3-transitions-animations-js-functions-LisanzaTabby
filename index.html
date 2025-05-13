@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to EventGlow</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="images/lotuslogo2.png" alt="EventGlow Logo" class="logo">
+    <h1 id="greeting">Welcome to EventGlow!</h1>
+  </header>
+
+  <section class="input-section">
+    <input type="text" id="username" placeholder="Enter your name" />
+    <button id="saveNameBtn">Save Name</button>
+  </section>
+
+  <section class="controls">
+    <div>
+      <label for="themeSelect">Choose Theme:</label>
+      <select id="themeSelect">
+        <option value="light">🌞 Light</option>
+        <option value="dark">🌚 Dark</option>
+        <option value="solarized">🌅 Solarized</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="animationSelect">Choose Animation:</label>
+      <select id="animationSelect">
+        <option value="slide">Slide In</option>
+        <option value="bounce">Bounce</option>
+        <option value="rotate">Rotate</option>
+      </select>
+      <button id="animateBtn">Animate Box</button>
+    </div>
+  </section>
+
+  <section>
+    <div id="box" class="box"></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 talisti creations. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
